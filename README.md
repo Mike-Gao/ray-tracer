@@ -1,16 +1,27 @@
-#Path Tracer, Based on P. Shirley's Ray Tracing Minibooks.
+# Ray Tracer
 
-## Features:
-- [x] Motion Blur
-- [x] Bounding Volume Hierarchies (bvh.h)
-- [x] Image Texture Mapping
-- [x] Solid Textures
-- [x] Perlin Noise
+Written by Mia Celeste and Mike Gao
 
 Compile and Run under OSX:
 ```
+cd
 cmake .
 make
+./Ray_Tracer
 ```
 
-Not tested in any other platform, but should work if you have build-essential and cmake installed.
+# The Image
+
+![](final.jpg)
+
+# Reference
+
+*Ray Tracing in One Weekend* by Peter Shirley
+
+*Ray Tracing the Next Week* by Peter Shirley
+
+*Fundamentals of Computer Graphics* by Shirley et al.
+
+*Light for Visual Artists* by Richard Yot
+
+*The Secret Language of Color* by Joann Eckstut 
